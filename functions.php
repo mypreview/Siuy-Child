@@ -65,7 +65,7 @@ if (!class_exists('Siuy_Child')):
 			add_editor_style(array(
 				get_stylesheet_directory_uri() . '/assets/css/editor-style.css',
 				add_query_arg(apply_filters('siuy_default_font_family', array(
-					'family' => urlencode('Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i') ,
+					'family' => urlencode('Cardo:400,400i,700,700i|Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Playfair Display:400,400i,700,700i,900,900i') ,
 					'subset' => urlencode('latin,latin-ext')
 				)) , 'https://fonts.googleapis.com/css')
 			));
